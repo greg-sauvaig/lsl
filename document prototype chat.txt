@@ -1,0 +1,36 @@
+CHAT :
+
+initialisationd'un chat entre les participants d'un sport:
+initialisation d'un chat entre deux amis.
+
+plan du protocole de com:
+
+format choisi JSON
+
+index o : nom d'utilisateur
+index u : session valide
+
+	CONDITION: fausse pas de reponse serveur
+
+index m: message
+
+	CONDITION: pas de contenu de message, pas de response serveur
+
+prototype de format:
+
+{
+	"o" : "bob",
+	"u" : "alice"
+	"m" : "texte."
+}
+
+initialisation chat entre amis: 
+
+CONDITIONS: 
+		-etre amis.
+		-init chat entre id user et id ami
+
+initialisation chat entre participant:
+
+CONDITIONS: 
+		-init chat entre id de l'evenement et les ids des participants
